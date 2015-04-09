@@ -6,6 +6,9 @@ a:hover{
 	color:rgb(133, 202, 240);
 	text-decoration: underline;
 }
+@font-face {
+
+}
 textarea{
 	border: 3px solid;
 	border-color: rgb(133, 202, 240);
@@ -19,7 +22,6 @@ h1{
 	font-size:20px;	
 	height:23px;
 	text-align:center;
-	font-family: "Helvita";
 }
 /* content-header */
 .content-header{
@@ -37,7 +39,7 @@ h1{
 	margin-left: 450px;
 	margin-top: 40px;
 }
-.list-nav .item-list-nav{
+.list-nav .list-nav-item{
 	display: inline-block;
 	text-align:center;
 	font-size: 20px;
@@ -51,12 +53,14 @@ h1{
 	width: 66%;
 	height: 571px;
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
 /* content-about */
 .content-about{
 	margin-left:190px;
 	margin-right:190px;
 	margin-top: 100px;
+	margin-bottom: 70px;
 }
 .title-name{
 	color:#5A5B5A;
@@ -82,22 +86,22 @@ h1{
 	margin-left: 50px;
 }
 .img-biography{
-	width: 100%;
-	height: 260px;
+	width: 91%;
+	height: 261px;
 	border: solid 1px;
 }
 .work-experience{
-	margin-left: -40px;
+	margin-left: -42px;
 }
-.list-work-experience{
+.work-experience-list{
 	display: inline-block;
 	width: 25%;
 	vertical-align: top;
 	padding-right: 23px;
 }
 .img-work{
-	width: 100%;
-	height: 65px;
+	width: 98%;
+	height: 66px;
 }
 /*content-training*/
 .content-training{
@@ -105,7 +109,7 @@ h1{
 	width: 30%;
 	text-align: center;
 }
-.item-list-training{
+.list-training-item{
 	border: 3px solid;
 	border-color: rgb(133, 202, 240);
 	background:transparent;
@@ -119,7 +123,7 @@ h1{
 .form-part{
 	background:gray;
 }
-.item-form{
+.form-contact-item{
 	border: 3px solid;
 	border-color: rgb(133, 202, 240);
 	background:transparent;
@@ -138,4 +142,8 @@ h1{
 	background:black;
 	color:#fff;
 	text-align:center;
+}
+.ilustartion-footer{
+	width: 15%;
+	height:250px;
 }
