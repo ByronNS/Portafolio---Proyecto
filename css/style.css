@@ -1,0 +1,141 @@
+a{
+ 	text-decoration: none;
+ 	color: rgb(80, 77, 77);
+}
+a:hover{
+	color:rgb(133, 202, 240);
+	text-decoration: underline;
+}
+textarea{
+	border: 3px solid;
+	border-color: rgb(133, 202, 240);
+	background:transparent;
+	width: 25%;
+	height: 60px;
+}
+h1{
+	background:#22785B;
+	color:#fff;
+	font-size:20px;	
+	height:23px;
+	text-align:center;
+	font-family: "Helvita";
+}
+/* content-header */
+.content-header{
+	padding: 10px;
+}
+.logo{
+	width: 15%;
+	height: 115px;
+	margin-left: 30px;
+}
+.list-nav {
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 450px;
+	margin-top: 40px;
+}
+.list-nav .item-list-nav{
+	display: inline-block;
+	text-align:center;
+	font-size: 20px;
+	margin-left: 10px;
+	text-decoration: none;
+	vertical-align: top;
+}
+.banner{
+	background: url(../img/banner-img.png)no-repeat;
+	background-size: 100% 100%;
+	width: 66%;
+	height: 571px;
+	margin: 0 auto;
+}
+/* content-about */
+.content-about{
+	margin-left:190px;
+	margin-right:190px;
+	margin-top: 100px;
+}
+.title-name{
+	color:#5A5B5A;
+	text-align: center;
+	font-size: 28px;
+}
+.line{
+	border-color: rgb(133, 202, 240);
+	width: 25%;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.information-left{
+	width:43.5%;
+	display: inline-block;
+	margin-left: 70px;
+
+}
+.information-rigth{
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+	margin-left: 50px;
+}
+.img-biography{
+	width: 100%;
+	height: 260px;
+	border: solid 1px;
+}
+.work-experience{
+	margin-left: -40px;
+}
+.list-work-experience{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	padding-right: 23px;
+}
+.img-work{
+	width: 100%;
+	height: 65px;
+}
+/*content-training*/
+.content-training{
+	vertical-align: top;
+	width: 30%;
+	text-align: center;
+}
+.item-list-training{
+	border: 3px solid;
+	border-color: rgb(133, 202, 240);
+	background:transparent;
+	display: inline-block;
+	text-decoration: none;
+}
+.title-institutions{
+	font-size: 18px;
+}
+/* footer-contact */
+.form-part{
+	background:gray;
+}
+.item-form{
+	border: 3px solid;
+	border-color: rgb(133, 202, 240);
+	background:transparent;
+	width:20%;
+	height:20px;
+	display: inline-block;
+}
+.btn-submit{
+	background-color:rgb(133, 202, 240);
+	color:#fff;
+	width:10%;
+	height:30px;
+	font-size:14px;
+}
+.info-contact{
+	background:black;
+	color:#fff;
+	text-align:center;
+}

@@ -3,79 +3,101 @@
 <head>
 	<title>BriefCase</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <header class="content-header">
 	<nav class="nav-header">
-		<ul>
-			<li><a href="">Inicio</a></li>
-			<li><a href="">Acerca de mí</a></li>
-			<li><a href="">Proyectos</a></li>
-			<li><a href="">Formación</a></li>
-			<li><a href="">Contacto</a></li>
-		</ul>
+	<img class="logo" src="img/logo.png">
+		<ul class="list-nav">
+			<li class="item-list-nav"><a class="link-list-nav" href="">Inicio</a></li>
+			<li class="item-list-nav"><a class="link-list-nav" href="">Acerca de mí</a></li>
+			<li class="item-list-nav"><a class="link-list-nav" href="">Proyectos</a></li>
+			<li class="item-list-nav"><a class="link-list-nav" href="">Formación</a></li>
+			<li class="item-list-nav"><a class="link-list-nav" href="">Contacto</a></li>
+		</ul><!--list-nav-->
 	</nav>
-	<div class="slider-header">
-		<img src="">
-		<img src="">
-		<img src="">
-	</div><!--.slider-header-->
-</header>
+</header>	
+<div class="banner"></div>
+<h1>Acerca de mí</h1>
 <section class="content-about">
-	<h2>Byron Navarro Salazar</h2>
-	<hr>
+	<h2 class="title-name">Byron Navarro Salazar</h2>
+	<hr class="line">
+	<div class="information-left">
 	<h4>Biografía</h4>
-	<img src="">
-	<p>El 26 de mayo de 1995, naci, en San Jose, Costa Rica.
-	Vivi en Curridabat, rodeado de personas interesantes y conviviendo lo mejor que podia, lleno de metas y optimismo visualize mi futuro.</p>
-	<br>
-	<p>Comence mis estudios en la Escuela Centro America, pase tres años en el Liceo de Curridabat y por ultimo saque mi bachillerato y el tecnico medio en Contabilidad. Tuve la gran oportunidad de ser parte de la Segunda Generacion de estudiantes del Centro Tecnologico y Artes Visuales, donde me prepare como Diseñador y Desarrollador Web. El mismo periodo de tiempo estudie Ingles por parte del INA y me prepare como un gran estudiante en busca de mi profesion.</p>
-	<br>
+	<p>El 26 de mayo de 1995, nací, en San Jose, Costa Rica.
+	Viví en Curridabat, rodeado de personas interesantes y conviviendo lo mejor que podia, lleno de metas y optimismo visualize mi futuro.</p>
+	<p>Comencé mis estudios en la Escuela Centro America, pase tres años en el Liceo de Curridabat y por ultimo saque mi bachillerato y el tecnico medio en Contabilidad. Tuve la gran oportunidad de ser parte de la Segunda Generacion de estudiantes del Centro Tecnologico y Artes Visuales, donde me prepare como Diseñador y Desarrollador Web. El mismo periodo de tiempo estudie Ingles por parte del INA y me prepare como un gran estudiante en busca de mi profesión.</p>
 	<p>Como todas las personas, tenia metas para mi futuro, tomando en cuenta mi familia y amigos, me considero una persona sociable, profesional en lo que hago y me propongo hacer, no busco ser el mejor pero si uno de ellos.</p>
-	<img src="img/exp-1.jpg">
-	<img src="img/exp-2.png">
-	<img src="img/exp-3.gif">
-	<img src="img/exp-4.jpg">
+	</div><!--.information-left-->
+	<div class="information-rigth">
+	<img class="img-biography" src="img/biography.jpg">
+	<h4>Experiencia Laboral</h4>
+	<ul class="work-experience">
+		<li class="list-work-experience"><img class="img-work" src="img/exp-1.jpg"></li>
+		<li class="list-work-experience"><img class="img-work" src="img/exp-3.gif"></li>
+		<li class="list-work-experience"><img class="img-work" src="img/exp-4.jpg"></li>
+	</ul>
+	</div>
 </section><!--.content-about-->
+
 <div class="projects">
 </div><!--projects-->
+
+<h1>Formación</h1>
 <section class="content-training">
-	<img src="img/cetav.png">
-	<h5>CETAV</h5>
-	<p>Fui parte de la II Gereneracion, en la carrera de Diseño y Desarrollo Web.
-	Duracion: 20 meses.
-	Cursos: JavaScript, Analisis y Diseño de Interfaces, Desarrllo de Sitios, Habilidades para la empleabilidad, Pensamiento Creativo.</p>
-	<img src="img/ina_cr.jpg">
-	<h5>INA</h5>
-	<p>Se me brindo la oportunidad de estudiar Ingles para el sector comercial en el CETAV.
-	Duracion: 18 mesess
-	Cursos: Ingles Basico, Intermedio.</p>
-	<img src="img/fid.gif">
-	<h5>#FID2015</h5>
-	<p>Gracias a las oportunidades que me brindo el CETAV, fui parte del Festival Internacional de Diseño, durante los dias 12 -13 y 14 de marzo del 2015. </p>
-	<img src="img/drupal.png">
-	<h5>Drupal Camp 2014</h5>
-	<p>Fuimos parte del Drupal camp que se realizo en la Universidad de Costa Rica donde aprendi diferentes experiencias para saber mas sobre diseño web y sus partes.</p>		
+	<ul class="list-training">
+		<li class="item-list-training">
+			<a class="link-sites"><img src="img/cetav.png"></a>
+			<h5 class="title-institutions">CETAV</h5>
+			<p>Fui parte de la II Gereneracion, en la carrera de Diseño y Desarrollo Web.
+			Duracion: 20 meses.
+			Cursos: JavaScript, Analisis y Diseño de Interfaces, Desarrllo de Sitios, Habilidades para la empleabilidad, Pensamiento Creativo.</p>
+		</li>
+		<li class="item-list-training">
+			<a class="link-sites"><img src="img/ina_cr.jpg"></a>
+			<h5 class="title-institutions">INA</h5>
+			<p>Se me brindo la oportunidad de estudiar Ingles para el sector comercial en el CETAV.
+			Duracion: 18 mesess
+			Cursos: Ingles Basico, Intermedio.</p>
+		</li>	
+		<li class="item-list-training">
+			<a class="link-sites"><img src="img/fid.gif"></a>
+			<h5 class="title-institutions">#FID2015</h5>
+			<p>Gracias a las oportunidades que me brindo el CETAV, fui parte del Festival Internacional de Diseño, durante los dias 12 -13 y 14 de marzo del 2015. </p>
+		</li>
+		<li class="item-list-training">
+			<a class="link-sites"><img src="img/drupal.png"></a>
+		  <h5 class="title-institutions">Drupal Camp 2014</h5>
+			<p>Fuimos parte del Drupal camp que se realizo en la Universidad de Costa Rica donde aprendi diferentes experiencias para saber mas sobre diseño web y sus partes.</p>
+		</li>
+	</ul>		
 </section><!--.Content-training-->
+
+
+<h1>Contacto</h1>
 <footer class="content-contact">
+	<div class="form-part">
+	<img src="img/tree.png">
 	<form class="form-contact">
-		<input type="text" name="Nombre" placeholder="Nombre:">
+		<input class="item-form" type="text" name="Nombre" placeholder="Nombre:">
 		<br>
-		<input type="email" name="e-mail" placeholder="E-mail:">
+		<input class="item-form" type="email" name="e-mail" placeholder="E-mail:">
 		<br>
-		<input type="number" name="Telefono" placeholder="Teléfono:">
+		<input class="item-form" type="number" name="Telefono" placeholder="Teléfono:">
 		<textarea name="Mensaje" placeholder="Mensaje: "> </textarea>
-		<button type="submit">Enviar</button>
+		<button class="btn-submit" type="submit">Enviar</button>
 	</form>
+	</div><!--.form-part-->
 	<div class="info-contact">
-		<img src=""> 
-		<img src="">
+		<a href="https://www.facebook.com/byron.navarro.26"><img src=""></a>
+		<a href="https://twitter.com/ByronNavarro1"><img src=""></a>
 		<p>Byron Navarro Salazar</p>
 		<p>Diseñador y Desarrollador Web</p>
 		<p>Cel: 8476 - 08 - 32</p>
 		<p>Correo: baynavarro26@gmail.com </p>
-		<img src="">
-		<img src="">		
+		<a href="https://instagram.com/byronns26/"><img src=""></a>
+		<a href="https://plus.google.com/u/0/+ByronNavarro26/about"><img src=""></a>
 	</div><!--.info-contact-->
 </footer>
 
