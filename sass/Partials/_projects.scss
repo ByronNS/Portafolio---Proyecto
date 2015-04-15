@@ -1,0 +1,59 @@
+.projects{
+	position: relative;
+}
+.project-img{
+	width:10%;
+	height: 30px;
+}
+.background-project{
+	background: gray;
+	width: 20%;
+	height:50px;
+}
+.list-projects{
+	list-style: none;
+}
+.list-projects > .list-projects-item{
+    border: 3px solid #22785B;
+    padding: 17px;
+    text-align: center;
+    width: 15%;
+    font-family: "Simplifica";
+    color: #000;
+    font-size: 22px;
+}
+.list-projects > .list-projects-item:hover{
+	background: #22785B;
+}
+.list-projects-item img{
+	height: 100px;
+	width: 75%;
+	border-radius:100%;
+}
+.description-project{
+	display: none;
+	background: none repeat scroll 0% 0% #22785B;
+	color: #000;
+	width: 50%;
+	padding: 40px;
+	text-align: center;
+	font-family: "Simplifica";
+	font-size: 20px;
+	position: absolute;
+	top: 95px;
+	left: 33%;
+}
+.description-project img{
+	height: 250px;
+	width: 70%;
+}
+.link-project{
+	color: white;
+}
+.project-title-site{
+	font-size: 24px;
+
+}
+.description-project-text{
+	margin-top: -25px ;
+}

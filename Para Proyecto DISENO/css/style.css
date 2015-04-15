@@ -1,0 +1,227 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+ @font-face {font-family:"Open Sans Semibold";src:url("../fonts/OpenSans-Semibold.eot?") 
+ format("eot"),url("../fonts/OpenSans-Semibold.woff") format("woff"),url("../fonts/OpenSans-Semibold.ttf")
+  format("truetype"),url("../fonts/OpenSans-Semibold.svg#OpenSans-Semibold") format("svg");
+  font-weight:normal;font-style:normal;}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+ @font-face {font-family:"TitilliumMaps26L-500wt";src:url("../fonts/TitilliumMaps26L002.eot?") 
+ format("eot"),url("../fonts/TitilliumMaps26L002.woff") format("woff"),url("../fonts/TitilliumMaps26L002.ttf") 
+ format("truetype"),url("../fonts/TitilliumMaps26L002.svg#TitilliumMaps26L-500wt") format("svg");
+ font-weight:normal;font-style:normal;}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+ @font-face {font-family:"TitilliumText14L-Bold";src:url("../fonts/TitilliumText1.eot?")
+  format("eot"),url("../fonts/TitilliumText1.woff") format("woff"),url("../fonts/TitilliumText1.ttf")
+   format("truetype"),url("../fonts/TitilliumText1.svg#TitilliumText14L-Bold") format("svg");
+   font-weight:normal;font-style:normal;}
+
+body{
+	color: #fff;
+	font-family: "TitilliumText14L-Bold";
+}
+a{
+	text-decoration:none;
+}
+#header{
+	background-color: #87509c;
+	padding: 2.18em 8.87em 7.08em;
+
+}
+#navigation{
+    list-style:none;
+    float: right;
+}
+#navigation li {
+    display: inline-block; 
+    position: relative;
+    padding: 0 1.09em 1rem;
+    font-size: 0.76em;
+}     
+#navigation a:hover {
+    display: block;
+    background-color: #643a79;
+    padding: 0.70em;
+    border-radius: 2px;
+
+}
+#navigation a{
+    color:#fff;
+    font-size:0.76rem;
+    text-shadow: 2px 2px  0 rgba(38, 93, 142, 0.5);
+}
+#header .hola{
+    text-align: center;
+    padding: 1em; 
+}
+.hola h2{
+    font-weight: bold;
+    font-size: 1.55rem;
+    color: #f7f3e9;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+.hola h4{
+	font-size: 1rem;
+	font-weight: 100;
+  text-align: center;
+}
+#services {
+  background: #17c2a4;
+  color:#fff;
+  padding: 5em;
+  text-align: center;
+}
+#services p{
+  padding-bottom: 2em;
+}
+
+#services .colunmsa{ 
+-moz-column-count: 4;
+-moz-column-gap: 12px;
+-webkit-column-count: 4;
+-webkit-column-gap: 12px;
+column-count: 4;
+column-gap: 12px;
+padding: 1em;
+}
+
+#meet{
+  background: #e7f1f8;
+  color:#fff;
+  padding: 5em;
+  text-align: center;
+}
+#meet h1{
+  color:#3c4761;
+}
+#meet h3{
+  color:#3c4761;
+}
+#meet p{
+  color:#47526b;
+}
+#meet img{
+  border-radius: 75px;
+}
+#meet .colums{
+-moz-column-count: 4;
+-moz-column-gap: 12px;
+-webkit-column-count: 4;
+-webkit-column-gap: 12px;
+column-count: 4;
+column-gap: 12px;
+padding: 1em;
+text-align: center;
+}
+#meet h5{
+  color:#3cbee8;
+}
+.colums p{
+  padding-bottom: 1em;
+  font-size: 0.9rem;
+}
+
+#what{
+  background: #d74680;
+  color:#fff;
+  padding: 4em;
+  padding-bottom: 0em;
+  text-align: center;
+}
+
+.columns2 img{
+  border-radius: 70px;
+  float:left;
+
+}
+.columns2 h3{
+  
+}
+#what p{
+  color:#fac996;
+  padding: 1 2em 0;
+  padding-bottom: 3em;
+}
+
+#what .columns2{
+-moz-column-count: 2;
+-moz-column-gap: 9px;
+-webkit-column-count: 2;
+-webkit-column-gap: 9px;
+column-count: 2;
+column-gap: 9px;
+padding: 2em;
+text-align: left;
+}
+
+#what .chanel{
+  text-align: left;
+}
+.chanel img{
+  padding: 2em;
+}
+.chanel p{
+  text-align: left;
+}
+#what .anne{
+  text-align: left;
+}
+.anne img{
+  padding: 2em;
+}
+.anne p{
+  text-align: left;
+}
+#what .adriana{
+  text-align: left;
+}
+.adriana img{
+  padding: 2em;
+}
+.adriana p{
+  text-align: left;
+}
+#what .emma{
+  text-align: left;
+}
+.emma img{
+  padding: 2em;
+}
+.emma p{
+  text-align: left;
+}
+
+
+#footer{
+  background: #3c5499;
+  color:#fff;
+  padding: 3em;
+  text-align: center;
+}
+#footer h3{
+    text-align: left;
+    padding: 0 1em;
+}
+
+#footer p{
+  text-align: left;
+  color:#9eccec;
+  padding-bottom: 2em;
+}
+#footer h4{
+  padding-bottom: 1em;
+}
+#footer h5{
+  text-align: left;
+  color: #fff;
+}
+.links a{
+  background: #213675;
+  color: #19baa3;
+  padding: 1em 2em;
+}
+.links .juego{
+  color: #90cf46;
+}
+
+

@@ -1,0 +1,164 @@
+/* Inicio.html */
+
+/* Noticias.html */
+
+/*Pag-Noticias.html */
+
+/* ======================= Styles Generales ======================= */
+
+html {
+box-sizing: border-box;
+font-size: 62.5%;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: #91d9f8;
+}
+
+/* ===== Navegacion ===== */
+
+.img-navegacion{
+width: 20%;
+margin-left: 3%;
+}
+
+.principal-navegacion{
+position: fixed;
+background: #58585a;
+height: 82px;
+display: inline-block;
+width: 73%;
+margin-left:4%;
+}
+
+.navegacion{
+background: white;
+height: 80px;
+position: fixed;
+width: 100%;
+margin-top: -5px;
+z-index: 1;
+}
+
+nav li:hover{
+	background-color: #91d9f8;
+	height: 85px;
+	
+}
+
+nav li:hover a{
+  color: black;
+}
+
+nav after:hover{
+	background-color: red;
+}
+nav .active a{
+color: #58585a;
+}
+nav li.active{
+background: #91d9f8;
+height: 85px;
+margin-top: -13px;
+}
+nav .active:after{
+content: '';
+width: 0;
+height: 0;
+display: block;
+position: relative;
+margin: 34px auto;
+border: 10px solid transparent;
+border-top: 8px solid #91d9f8;
+}
+.ul-navegacion li{
+display: inline-block;
+margin-top: -13px;
+font-size: 1.5rem;
+border-right: transparent;
+padding-left: 4.5%;
+height: 52px;
+padding-top: 32px;
+padding-right: 4.3%;
+}
+
+
+/* ===== Contacto ===== */
+
+.footer{
+  background: #58585a;
+margin-top: 50px;
+height: 150px;
+padding-left: 5%;
+padding-top: 5px;
+padding-bottom: 20px;
+}
+footer a{
+  color:#fff;
+}
+.facebook:hover{
+  background: url(../img/icon-fb-hover.png);
+}
+
+.google:hover{
+  background: url(../img/icon-google-hover.png);
+}
+
+.rrss{
+padding-top: 25px;
+float: right;
+margin-right: 6%;
+margin-top: -35px;
+}
+
+.title{
+  color: #91D9F8;
+  font-size: 20px;
+}
+
+.twiter:hover{
+  background: url(../img/icon-twiter-hover.png);
+}
+
+.title-p, address{
+  color: #91D9F8;
+font-size: 13px;
+margin-bottom: -10px;
+}
+
+/* ======================= Style Pagina de Noticias Secundaria ======================= */
+
+.img-noticia-completa img{
+	margin-top: 10px;
+	margin-left: 35%;
+}
+
+.noticia-completa{
+	margin-top: -20px;
+}
+
+.noticia-completa-h2{
+	padding-top: 115px;
+	text-align: center;
+	color: #58585a;
+	font-size: 30px;
+}
+
+.noticia-completa-h3{
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 30px;
+	color: #91D9F8;
+}
+
+.noticia-completa-p{
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 13px;
+	color: #000;
+}

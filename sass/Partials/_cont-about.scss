@@ -1,0 +1,55 @@
+.content-about{
+	margin-left:190px;
+	margin-right:190px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+.title-name{
+	color:$color-gray;
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Simplifica';
+}
+.line{
+	border-color: $color-lightblue;
+	width: 25%;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.information-left{
+	width:43.5%;
+	display: inline-block;
+	margin-left: 70px;
+	font-size:20px;
+	font-family: 'Simplifica';
+}
+.information-rigth{
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+	margin-left: 50px;
+	font-family: 'Simplifica';	
+	font-size:20px;	
+}
+.img-biography{
+	width: 91%;
+	height: 261px;
+	border: solid 1px;
+}
+.work-experience{
+	margin-left: -42px;
+}
+.work-experience-list{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	padding: 4px;
+	margin-right: 22px;
+}
+.img-work{
+	width: 98%;
+	height: 66px;
+}
+.experience-title{
+	font-size:20px;
+}

@@ -1,0 +1,26 @@
+.content-training{
+	vertical-align: top;
+	width: 100%;
+	text-align: center;
+}
+.list-training-item{
+	border: 3px solid;
+	border-color: $color-lightblue;
+	background: transparent;
+	display: inline-block;
+	text-decoration: none;
+	width: 35%;
+	vertical-align: top;
+	height: 345px;
+	margin: 20px;
+	padding: 25px;
+	font-size: 18px;
+	font-family: 'Simplifica';
+}
+.sites-training-img {
+	width: 40%;
+	height: 115px;
+}
+.title-institutions{
+	font-size: 20px;
+}

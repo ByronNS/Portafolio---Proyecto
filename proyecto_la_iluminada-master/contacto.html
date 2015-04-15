@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+			<script type="text/javascript" src="css/jquery-1.11.1.js"> </script>
+	  <link href="css/contacto.css" rel="stylesheet" type="text/css"/>
+	  <script type="text/javascript">
+				$(document).ready(function(){
+				  $('nav li').click(function(){
+				    $('nav li.active').removeClass('active');
+				    $(this).addClass('active');
+				  });
+				});
+			</script>	
+</head>
+<body>
+<header>
+				<div class="navegacion"> 
+					<a href="inicio.html"> <img class="img-navegacion" src="img/lailuminada.png"> </a>
+					<nav class="principal-navegacion">
+						<ul class="ul-navegacion">
+							<li> <a href="productos.html"> Productos </a> </li>
+							<li> <a href="proyectos.html"> Proyectos </a> </li>
+							<li> <a href="noticia.html"> Noticias </a> </li>
+							<li> <a href="acerca.html"> Acerca de </a> </li>
+							<li class="active"> <a href="contacto.html"> Contacto </a> </li>
+						</ul>
+					</nav>
+				</div>
+</header>
+
+<div class="contact">
+
+<form>
+<input type="text" name="Nombre" placeholder="Nombre:">
+<br>
+<input type="email" name="email" placeholder="Correo:">
+<br>
+<textarea type="text" placeholder="Mensaje:"></textarea>
+<br>
+<button class="button">Enviar</button>
+</form>
+
+
+
+<div class="second">
+<img src="img/mapa.png">
+<h4>La Iluminada S.A</h4>
+<p>San José, Costa Rica</p>
+<p>Tel: 800-2525-3232</p>
+<p>Email: lailuminada@company.com</p>
+</div><!--.dos-->
+
+<div class="imags"> 
+		<a href="www.facebook.com"> <img class="facebook" src="img/icon-fb.png"> </a>
+		<a href="www.google.com"> <img class="google" src="img/icon-google.png"> </a>
+		<a href="www.twiter.com"> <img class="twiter" src="img/icon-twiter.png"> </a>
+</div>
+
+</div><!--#contacto-->
+</body>
+</html>

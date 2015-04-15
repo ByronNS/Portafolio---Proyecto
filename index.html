@@ -3,7 +3,10 @@
 <head>
 	<title>BriefCase</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>	
 </head>
 <body>
 <header class="content-header">
@@ -18,8 +21,12 @@
 		</ul><!--list-nav-->
 	</nav>
 </header>	
-<div class="banner"></div>
-<h1>Acerca de mí</h1>
+<div class="banner">
+	<div class="banner-info">
+		<h2>Bienvenido a mí Sitio Web</h2>
+	</div>
+</div>
+<h1 class="title-sections">Acerca de mí</h1>
 <section class="content-about">
 	<h2 class="title-name">Byron Navarro Salazar</h2>
 	<hr class="line">
@@ -32,7 +39,7 @@
 	</div><!--.information-left-->
 	<div class="information-rigth">
 	<img class="img-biography" src="img/biography.jpg">
-	<h4>Experiencia Laboral</h4>
+	<h4 class="experience-title">Experiencia Laboral</h4>
 	<ul class="work-experience">
 		<li class="work-experience-list"><img class="img-work" src="img/exp-1.jpg"></li>
 		<li class="work-experience-list"><img class="img-work" src="img/exp-3.gif"></li>
@@ -42,32 +49,38 @@
 </section><!--.content-about-->
 
 <div class="projects">
+<h1 class="title-sections">Proyectos</h1>
+	
+	<div class="list-projects">
+	</div>
+	<div class="description-project"></div>
+	
 </div><!--projects-->
 
-<h1>Formación</h1>
+<h1 class="title-sections">Formación</h1>
 <section class="content-training">
 	<ul class="list-training">
 		<li class="list-training-item">
-			<a class="link-sites"><img src="img/cetav.png"></a>
+			<a class="link-sites"><img class="sites-training-img" src="img/cetav.png"></a>
 			<h5 class="title-institutions">CETAV</h5>
 			<p>Fuí parte de la II Gereneracion, en la carrera de Diseño y Desarrollo Web.
 			Duración: 20 meses.
 			Cursos: JavaScript, Análisis y Diseño de Interfaces, Desarrollo de Sitios, Habilidades para la empleabilidad, Pensamiento Creativo.</p>
 		</li>
 		<li class="list-training-item">
-			<a class="link-sites"><img src="img/ina_cr.jpg"></a>
+			<a class="link-sites"><img class="sites-training-img" src="img/ina_cr.jpg"></a>
 			<h5 class="title-institutions">INA</h5>
 			<p>Se me brindo la oportunidad de estudiar Inglés para el sector comercial en el CETAV.
 			Duración: 18 mesess
 			Cursos: Ingles Basico, Intermedio.</p>
 		</li>	
 		<li class="list-training-item">
-			<a class="link-sites"><img src="img/fid.gif"></a>
+			<a class="link-sites"><img class="sites-training-img" src="img/fid.gif"></a>
 			<h5 class="title-institutions">#FID2015</h5>
 			<p>Gracias a las oportunidades que me brindo el CETAV, fuí parte del Festival Internacional de Diseño, durante los días 12 -13 y 14 de marzo del 2015. </p>
 		</li>
 		<li class="list-training-item">
-			<a class="link-sites"><img src="img/drupal.png"></a>
+			<a class="link-sites"><img class="sites-training-img" src="img/drupal.png"></a>
 		  <h5 class="title-institutions">Drupal Camp 2014</h5>
 			<p>Fuímos parte del Drupal Camp que se realizó en la Universidad de Costa Rica, donde aprendí diferentes experiencias para saber más sobre diseño web y sus partes.</p>
 		</li>
@@ -75,32 +88,69 @@
 </section><!--.Content-training-->
 
 
-<h1>Contacto</h1>
+<h1 class="title-sections">Contacto</h1>
 <footer class="content-contact">
 	<div class="form-part">
-	<img class="ilustartion-footer" src="img/tree.png">
 	<form class="form-contact">
-		<input class="form-contact-item" type="text" name="Nombre" placeholder="Nombre:">
-		<br>
-		<input class="form-contact-item" type="email" name="e-mail" placeholder="E-mail:">
-		<br>
-		<input class="form-contact-item" type="number" name="Telefono" placeholder="Teléfono:">
-		<textarea name="Mensaje" placeholder="Mensaje: "> </textarea>
-		<button class="btn-submit" type="submit">Enviar</button>
+	<fieldset>
+		<section>
+			<label for="nombre">Name:*</label>
+			<input class="form-contact-item" type="text" name="nombre" id="nombre"placeholder="Escriba su Nombre" oninput="validacion('nombre')" required maxlength="20"/>
+		</section>
+		<section>
+			<label for="email">Email:*</label>
+			<input class="form-contact-item e-mail" type="email" id="email" name="email" placeholder="example@e-mail.com.com" oninput="validacion('email')" required maxlength="25"/>
+		</section>
+		<section>
+			<textarea class="form-contact-item-textarea" name="comentario" placeholder="Escriba su Comentario"></textarea>
+		</section>
+		<section>
+			<label for="comentario">Phone:</label>
+			<input class="form-contact-item" type="tel" name="Telefono" placeholder="Teléfono:">
+		</section>
+		<section>
+			<button class="btn-submit" type="submit" value="Enviar Comentario" onclick="enviado()">Enviar</button>
+		</section>
+	</fieldset>
 	</form>
 	</div><!--.form-part-->
+
 	<div class="info-contact">
-		<a href="https://www.facebook.com/byron.navarro.26"><img src=""></a>
-		<a href="https://twitter.com/ByronNavarro1"><img src=""></a>
+	 <div class="link-icons-right">
+		<a class="socialnetworks-link" href="https://www.facebook.com/byron.navarro.26"><img class="socialnetworks-img" src="img/icon-fb.png"></a>
+		<a class="socialnetworks-link" href="https://twitter.com/ByronNavarro1"><img class="socialnetworks-img" src="img/icon-twitter.png"></a>
+	</div>	
+	<div class="info-contact-section">
 		<p>Byron Navarro Salazar</p>
 		<p>Diseñador y Desarrollador Web</p>
 		<p>Cel: 8476 - 08 - 32</p>
 		<p>Correo: baynavarro26@gmail.com </p>
-		<a href="https://instagram.com/byronns26/"><img src=""></a>
-		<a href="https://plus.google.com/u/0/+ByronNavarro26/about"><img src=""></a>
+	</div>	
+	<div class="link-icons-left">
+		<a class="socialnetworks-link" class="icon-socialnetworks-link" href="https://instagram.com/byronns26/"><img class="socialnetworks-img" src="img/icono-insta.png" ></a>
+		<a class="socialnetworks-link" class="icon-socialnetworks-link" href="https://plus.google.com/u/0/+ByronNavarro26/about"> <img class="socialnetworks-img" src="img/icon-google.png" ></a>
+	</div>	
 	</div><!--.info-contact-->
 </footer>
-
+<script>
+		function validacion(id){
+			var elem = document.getElementById(id);
+			if(elem.checkValidity())
+					elem.style.borderColor="blue";
+			else
+					elem.style.borderColor = "green";
+		}
+		function enviado()
+		{
+			var nombreValido=document.getElementById('nombre').checkValidity();
+			var emailValido=document.getElementById('email').checkValidity();
+			if(nombreValido && emailValido){
+				alert("Su informacion fue enviada exitosamente");
+			} else{
+				alert("Por Favor revise sus campos.");
+			}		
+		}
+	</script>
 
 
 </body>

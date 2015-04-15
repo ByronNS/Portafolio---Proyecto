@@ -1,0 +1,174 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	font-size:13px;
+}
+a{
+    text-decoration: none;
+    color: #f5ee30;
+}
+/*Navegacion*/
+
+.img-navegacion{
+  width: 20%;
+  margin-left: 3%;
+}
+
+.principal-navegacion{
+  position: fixed;
+  background: #58585a;
+  height: 82px;
+  display: inline-block;
+  width: 73%;
+  margin-left:4%;
+}
+
+.navegacion{
+  background: white;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+  z-index: 1;
+}
+
+nav .active a{
+  color: #58585a;
+}
+nav li.active{
+   background: #f5ee30;
+   height: 82px;
+   margin-top: -13px;
+}
+nav .active:after{
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  position: relative;
+  margin: 33px auto;
+  border: 10px solid transparent;
+  border-top: 8px solid #f5ee30;
+}
+.ul-navegacion li{
+  display: inline-block;
+margin-top: -13px;
+font-size: 1.5rem;
+border-right: transparent;
+padding-left: 4.5%;
+height: 52px;
+padding-top: 32px;
+padding-right: 4.3%;
+}
+nav li:hover{
+  background: #f5ee30;
+  height: 82px;  
+}
+nav li:hover a{
+  color: #58585a;
+}
+.content{
+  position: absolute;
+  margin-top:70px; 
+}
+.pag-prod{
+	padding: 27px;
+	width: 100%;
+  margin-left: 43px;
+}
+.pag-prod-productos {
+  width: 18%;
+  display: inline-block;
+  text-align: left;
+  margin: 29px;
+  font-family: Verdana, Arial, sans-serif;
+}
+.pag-prod-productos img{
+	width: 166%;
+	height: 197px;
+	margin-left: -40px;
+	position: relative;
+}
+.pag-prod-productos h3{
+	background: #000;
+	color:#fff;
+	font-size: 15px;
+	font-family:Trebuchet MS, Arial, sans-serif;
+	position: absolute;
+	margin-top: -210px;
+	padding: 5px;
+	width: 18%;
+}
+.pag-prod-productos span{
+	font-size: 18px;
+}
+
+.pag-prod-productos .more-prod{
+	display: none;
+	background: url(../img/more-prod.png) no-repeat;
+	text-indent: -9999px;
+	background-size: 40px;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: 59%;
+	margin-top: -121px;
+	margin-left: 100px;
+	margin-bottom: 71px;
+
+}
+.pag-prod-productos:hover img{
+	background: #000;
+	opacity: 0.3;
+}
+.pag-prod-productos:hover .more-prod{
+	display: block;
+}
+.pag-prod-productos:hover h3{
+	color: #f5ee30;
+}
+.footer{
+  background: #58585a;
+margin-top: 65px;
+height: 150px;
+padding-left: 5%;
+padding-top: 5px;
+padding-bottom: 20px;
+}
+footer a{
+  color:#fff;
+}
+.facebook:hover{
+  background: url(../img/icon-fb-hover.png);
+}
+
+.google:hover{
+  background: url(../img/icon-google-hover.png);
+}
+
+.rrss{
+padding-top: 25px;
+float: right;
+margin-right: 6%;
+margin-top: -35px;
+}
+
+.title{
+  color: #f5ee30;
+  font-size: 20px;
+}
+
+.twiter:hover{
+  background: url(../img/icon-twiter-hover.png);
+}
+
+.title-p, address{
+  color: #f5ee30;
+font-size: 13px;
+margin-bottom: -10px;
+}

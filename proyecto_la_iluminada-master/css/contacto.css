@@ -1,0 +1,148 @@
+html {
+box-sizing: border-box;
+font-size: 62.5%;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+a{
+   text-decoration: none;
+   color: #A0CD4E;
+}
+
+/* ===== Navegacion ===== */
+
+.img-navegacion{
+width: 20%;
+margin-left: 3%;
+}
+
+.principal-navegacion{
+position: fixed;
+background: #58585a;
+height: 82px;
+display: inline-block;
+width: 73%;
+margin-left:4%;
+}
+
+.navegacion{
+background: white;
+height: 80px;
+position: fixed;
+width: 100%;
+margin-top: 0px;
+z-index: 1;
+}
+
+nav .active a{
+color: #58585a;
+}
+nav li.active{
+background: #A0CD4E;
+height: 85px;
+margin-top: -13px;
+}
+nav .active:after{
+content: '';
+width: 0;
+height: 0;
+display: block;
+position: relative;
+margin: 34px auto;
+border: 10px solid transparent;
+border-top: 8px solid #A0CD4E;
+}
+.ul-navegacion li{
+display: inline-block;
+margin-top: -13px;
+font-size: 1.5rem;
+border-right: transparent;
+padding-left: 4.5%;
+height: 52px;
+padding-top: 32px;
+padding-right: 4.3%;
+}
+nav li:hover{
+  background: #A0CD4E;
+  height: 85px;  
+}
+nav li:hover a{
+  color: #58585a;
+}
+.contact{
+	text-align: center;
+	background: white;
+	height:520px;
+	padding-top: 175px;
+	padding-left: 50px;
+}
+.contact .second{
+	color: #A0CD4E;
+	font-size: 16px;
+	margin-left: 470px;
+	text-align: center;
+
+}
+.contact form{
+	width: 15%;
+	height: 14px;
+	margin-left: 191px;
+}
+input{
+	margin-top: 15px;
+	width: 170%;
+	height: 41px;
+	background: transparent;
+	margin-bottom: -8px;
+	border: 1.7px solid;
+	border-color: #A0CD4E;
+	color:  green;
+	padding: 12px;
+	font-size: 13px;
+}
+textarea{
+	margin-top: 17px;
+	background: transparent;
+	width: 170%;
+	height: 130px;
+	border: 1.7px solid;
+	border-color: #A0CD4E;
+	padding: 11px;	
+	font-size: 13px;
+}
+.button{
+  border-radius: 5px;
+  border: none;
+  color: #A0CD4E;
+  background: #58585a;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 35px;
+	margin-top: 16px;
+	margin-left: 185px;
+}
+.button:hover{
+  color: #58585a;
+  background: #A0CD4E;
+}
+.imags{
+	margin-left: -530px;
+	margin-top: -34px;
+}
+.facebook:hover{
+  background: url(../img/icon-fb-hover.png);
+}
+.google:hover{
+  background: url(../img/icon-google-hover.png);
+}
+.twiter:hover{
+  background: url(../img/icon-twiter-hover.png);
+}
+.second img{
+	width: 45%;
+	height: 185px;
+}

@@ -1,0 +1,84 @@
+.form-part{	
+  background: url(../img/tree.png), gray;
+  background-size: 250px;
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: -21px;
+}
+.form-contact{
+  padding: 15px;
+  margin-left: 280px;
+  height: 315px;
+  width: 60%;
+  display: inline-block;
+}
+.form-contact-item{
+	border: 3px solid;
+	border-color: $color-lightblue;
+	background: transparent;
+	width: 40%;
+	height: 50px;
+	color: $color-white;
+	margin: 11px;
+	display: inline-block;
+	font-family: 'Simplifica';
+}
+.btn-submit{
+	background-color:$color-lightblue;
+	color:$color-white;
+	width:10%;
+	height:30px;
+	font-size:24px;
+	border:none;
+	margin-left: 350px;
+	margin-top: 20px;
+	font-family: 'Simplifica';	
+}
+.btn-submit:hover{
+	color:$color-lightblue;
+	background-color:$color-white;
+	font-family: 'Simplifica';	
+}
+.form-contact-item-textarea{
+	border: 3px solid;
+	border-color: $color-lightblue;
+	background: transparent;
+	width: 45%;
+	height: 123px;
+	color: $color-white;
+	display: inline-block;
+	float: right;
+	margin-top: -133px;
+	font-family: 'Simplifica';
+}
+.info-contact{
+	background:black;
+	color:$color-white;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Simplifica';	
+}
+.link-icons-right{
+	display: inline-block;
+	width: 30%;
+}
+.info-contact-section{
+	display: inline-block;
+	width: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.link-icons-left{
+	display: inline-block;
+	width: 30%;
+}
+.socialnetworks-link{
+	margin: 10px;
+}
+.socialnetworks-img{
+	width: 15%;
+	height: 60px;
+}

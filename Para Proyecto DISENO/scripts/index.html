@@ -1,0 +1,92 @@
+<html>
+  <head>
+
+  <style>
+.center_holder{
+	text-align:center;
+}
+ .teclado{
+      padding: 15px;
+      margin: 5px;
+      border: 1px solid black;
+      font-size: 12px;
+      display: inline-block;
+      font-family: arial;
+      background: #eee;
+      border-radius:5px;
+  }
+  .caja_ahorcado{
+      padding: 15px;
+      margin: 5px;
+      border: 1px solid black;
+      font-size: 12px;
+      display: inline-block;
+      font-family: arial;
+      background: #fff;
+      border-radius:5px;
+      visibility:hidden;
+  }
+
+    .caja_ahorcado_2{
+      padding: 15px;
+      margin: 5px;
+      border: 1px solid black;
+      font-size: 12px;
+      display: inline-block;
+      font-family: arial;
+      background: #fff;
+      border-radius:5px;
+  }
+  </style>
+  </head>
+  <body>
+
+   <div class = "center_holder" id = "ahor"></div>
+   
+   <br/>
+   <br/>
+   <br/>
+
+   <div class = "center_holder">
+    
+    <div>
+     <div class = "teclado" onclick = "validar('q')">Q</div>
+     <div class = "teclado" onclick = "validar('w')">W</div>
+     <div class = "teclado" onclick = "validar('e')">E</div>
+     <div class = "teclado" onclick = "validar('r')">R</div>
+     <div class = "teclado" onclick = "validar('t')">T</div>
+     <div class = "teclado" onclick = "validar('y')">Y</div>
+     <div class = "teclado" onclick = "validar('u')">U</div>
+     <div class = "teclado" onclick = "validar('i')">I</div>
+     <div class = "teclado" onclick = "validar('o')">O</div>
+     <div class = "teclado" onclick = "validar('p')">P</div>
+   </div>
+   
+   <div>
+     <div class = "teclado" onclick = "validar('a')">A</div>
+     <div class = "teclado" onclick = "validar('s')">S</div>
+     <div class = "teclado" onclick = "validar('d')">D</div>
+     <div class = "teclado" onclick = "validar('f')">F</div>
+     <div class = "teclado" onclick = "validar('g')">G</div>
+     <div class = "teclado" onclick = "validar('h')">H</div>
+     <div class = "teclado" onclick = "validar('j')">J</div>
+     <div class = "teclado" onclick = "validar('k')">K</div>
+     <div class = "teclado" onclick = "validar('l')">L</div>
+   </div>
+   
+   <div>
+     <div class = "teclado" onclick = "validar('z')">Z</div>
+     <div class = "teclado" onclick = "validar('x')">X</div>
+     <div class = "teclado" onclick = "validar('c')">C</div>
+     <div class = "teclado" onclick = "validar('v')">V</div>
+     <div class = "teclado" onclick = "validar('b')">B</div>
+     <div class = "teclado" onclick = "validar('n')">N</div>
+     <div class = "teclado" onclick = "validar('m')">M</div>
+   </div>
+
+  </div>
+  <script type = "text/javascript" src = "scripts.js"> </script>
+ </body>
+</html> 
+
+
