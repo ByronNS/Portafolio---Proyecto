@@ -3,21 +3,19 @@
 <head>
 	<title>BriefCase</title>
 	<meta charset="utf-8">
-	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css"/>	
 </head>
 <body>
-<header class="content-header">
+<header class="content-header" id="Home">
 	<nav class="nav-header">
 	<img class="logo" src="img/logo.png">
 		<ul class="list-nav">
-			<li class="list-nav-item"><a class="link-list-nav" href="">Inicio</a></li>
-			<li class="list-nav-item"><a class="link-list-nav" href="">Acerca de mí</a></li>
-			<li class="list-nav-item"><a class="link-list-nav" href="">Proyectos</a></li>
-			<li class="list-nav-item"><a class="link-list-nav" href="">Formación</a></li>
-			<li class="list-nav-item"><a class="link-list-nav" href="">Contacto</a></li>
+			<li class="list-nav-item"><a class="link-list-nav" href="#Home">Inicio</a></li>
+			<li class="list-nav-item"><a class="link-list-nav" href="#about-me">Acerca de mí</a></li>
+			<li class="list-nav-item"><a class="link-list-nav" href="#link_projects">Proyectos</a></li>
+			<li class="list-nav-item"><a class="link-list-nav" href="#training-me">Formación</a></li>
+			<li class="list-nav-item"><a class="link-list-nav" href="#part-contact">Contacto</a></li>
 		</ul><!--list-nav-->
 	</nav>
 </header>	
@@ -26,7 +24,7 @@
 		<h2>Bienvenido a mí Sitio Web</h2>
 	</div>
 </div>
-<h1 class="title-sections">Acerca de mí</h1>
+<h1 class="title-sections" id="about-me"> Acerca de mí</h1>
 <section class="content-about">
 	<h2 class="title-name">Byron Navarro Salazar</h2>
 	<hr class="line">
@@ -48,16 +46,17 @@
 	</div>
 </section><!--.content-about-->
 
-<div class="projects">
+<div class="projects" id="link_projects">
 <h1 class="title-sections">Proyectos</h1>
-	
+	<div id="projects"></div>
+	<div id="project-information" class='description-project'></div>
 	<div class="list-projects">
 	</div>
 	<div class="description-project"></div>
 	
 </div><!--projects-->
 
-<h1 class="title-sections">Formación</h1>
+<h1 class="title-sections" id="training-me">Formación</h1>
 <section class="content-training">
 	<ul class="list-training">
 		<li class="list-training-item">
@@ -89,7 +88,7 @@
 
 
 <h1 class="title-sections">Contacto</h1>
-<footer class="content-contact">
+<footer class="content-contact" id="part-contact">
 	<div class="form-part">
 	<form class="form-contact">
 	<fieldset>
@@ -132,13 +131,14 @@
 	</div>	
 	</div><!--.info-contact-->
 </footer>
+<script type="text/javascript" src="js/scripts.js"></script>
 <script>
 		function validacion(id){
 			var elem = document.getElementById(id);
 			if(elem.checkValidity())
-					elem.style.borderColor="blue";
+					elem.style.borderColor="green";
 			else
-					elem.style.borderColor = "green";
+					elem.style.borderColor = "red";
 		}
 		function enviado()
 		{

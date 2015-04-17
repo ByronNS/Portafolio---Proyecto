@@ -1,32 +1,32 @@
 {
-	"productos":[
+	"proyectos":[
 		{
 			"Id":121,
-			"nombre":"<strong>Cuda</strong>",
+			"nombre":"Cuda",
 			"descripcion":"Este sitio web, fue un rediseño de la página cuda, donde se restablecieron los mismos datos, pero, además se incluyeron más prototipos para que los usuarios tuvieran una mejor visualización del sitio, fue un gran trabajo y además la página cuenta con un juego de ahoracado para llamar más la atención de los usuarios.",
 			"img":"img/cuda.png",
 			"url" : "file:///Volumes/BYROON/Portafolio---Proyecto/Para%20Proyecto%20DISENO/index.html"
 		},
 		{
 			"Id":122,
-			"nombre":"<strong>La Iluminada</strong>",
+			"nombre":"La Iluminada",
 			"descripcion":"La idea de este proyecto, fué realizar un sitio web para una empresa de iluminación, la creación la realizamos tres personas, juntos hicimos un sitio sumamente interactivo y agradable para los usuarios, nos pareció atractivo y presenta un diseño de alta calidad.",
 			"img":"img/iluminida.png",
 			"url" : "file:///Volumes/BYROON/Portafolio---Proyecto/proyecto_la_iluminada-master/inicio.html"
 		},
 		{
 			"Id":123,
-			"nombre":"<strong>Drupal Camp</strong>",
+			"nombre":"Drupal Camp",
 			"descripcion":"El objetivo de este sitio, fué diseñarlo con relación a un PSD (PhotoShop), aplicando nuevas reglas de CSS3 y HTML5, y utilizar especificaciones en cada una de sus clases.",
 			"img":"img/dc.png",
 			"url" : "file:///Volumes/BYROON/Portafolio---Proyecto/Landing-DrupalCampal2014-master/index.html"
 		},
 		{
 			"Id":124,
-			"nombre":"<strong>El Caminito</strong>",
+			"nombre":"El Caminito",
 			"descripcion":"El Caminito fue un sitio que se rediseñó apartir de un PSD, en el sitio se utilizaron más prácticas avanzadas de HTML5 y se trata de un sitio de servicios de hotel.",
 			"img":"img/elcaminito.png",
-			"url" : "file:///Users/bnavarro/Desktop/El-caminito-master/index.html"
+			"url" : "file:///Users/bnavarro/Desktop/Proyecto%20JS/El-caminito-master/index.html"
 		}
 	]
 }

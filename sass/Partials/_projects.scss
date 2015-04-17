@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Simplifica';
+  src: url(../fonts/SIMPLIFICA.ttf); 
+}
 .projects{
 	position: relative;
 }
@@ -20,7 +24,7 @@
     width: 15%;
     font-family: "Simplifica";
     color: #000;
-    font-size: 22px;
+    font-size: 24px;
 }
 .list-projects > .list-projects-item:hover{
 	background: #22785B;
@@ -32,6 +36,9 @@
 }
 .description-project{
 	display: none;
+}
+.container{
+	display: block;
 	background: none repeat scroll 0% 0% #22785B;
 	color: #000;
 	width: 50%;
@@ -43,7 +50,7 @@
 	top: 95px;
 	left: 33%;
 }
-.description-project img{
+.container img{
 	height: 250px;
 	width: 70%;
 }
